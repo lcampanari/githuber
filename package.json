@@ -1,6 +1,6 @@
 {
   "name": "githuber",
-  "description": "Fetch your GitHub repositories with Typescript, React, Redux and Redux Saga",
+  "description": "Fetch your GitHub repositories with Typescript, React, Redux and Redux Saga, setup with ESLint",
   "version": "0.1.0",
   "private": true,
   "dependencies": {

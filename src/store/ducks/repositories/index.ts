@@ -15,7 +15,7 @@ const reducer: Reducer<RepositoriesState> = (state = INITIAL_STATE, action) => {
       return { ...state, loading: true };
     case RepositoriesTypes.LOAD_SUCCESS:
       return {
-        ...state, loading: false, error: false, data: action.payload,
+        ...state, loading: false, error: false, data: action.payload.data,
       };
     case RepositoriesTypes.LOAD_FAILURE:
       return {
